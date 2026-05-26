@@ -119,7 +119,7 @@ function sendEmail(){
   const subject = encodeURIComponent('Пријава — Далгина Метод');
   const body = encodeURIComponent('Е-маил за нотификација: ' + email);
 
-  fetch('https://formspree.io/f/mykvbnky', {
+  fetch('https://formspree.io/f/xredoyko', {
     method:'POST',
     headers:{'Content-Type':'application/json','Accept':'application/json'},
     body:JSON.stringify({email:email, _subject:'Нова пријава Далгина Метод'})
